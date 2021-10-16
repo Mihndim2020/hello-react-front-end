@@ -1,44 +1,89 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# Set up a "Hello world" project with two apps
 
-In the project directory, you can run:
+> For this project I have build the backend with Ruby on Rails and the frontend with React a JavaScript Library. I have created an API endpoint where the react frontend get data in json format and renders it.
 
-### `yarn start`
+## Built With
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- HTML, CSS, JavaScript (ES6)
+- Ruby 3.0.0
+- Rails 6.1.4.1
+- gem 'react-rails'
+- gem 'webpacker', '~> 5.0'
+- PostgreSQL
+- react 17.0.2
+- react-redux 7.2.5
+- redux 4.1.1
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
+## [LINK TO THE BACKEND](https://github.com/Mihndim2020/hello-rails-back-end/tree/feature/rails-api)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Getting Started
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get a local copy up and running, follow these simple example steps.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A browser to open the main file
+- Ruby 3.0.0 or higher
+- Node.js
+- NPM
 
-### `yarn eject`
+### Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Go to the terminal
+- Clone the project by entering this command: `git clone git@github.com:Mihndim2020/hello-react-front-end.git` for the react frontend
+- - Clone the project by entering this command: `git clone git@github.com:Mihndim2020/hello-rails-back-end.git` for the rails backend
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- to start the ***rails backend***;
+- `cd` in to "hello-rails-back-end" in the terminal, 
+- run bundle install to install dependences,
+- type `bin/rails db:setup` to setup your local database
+- run `rails db:seed` to seed the database and you are good to go. -
+- the run ***rails s -p 3090*** to start the server on port 3090.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- to start the ***react frontend*** 
+- `cd` in to "hello-react-front-end" in the terminal, 
+- run bundle install to install dependences,
+- run npm start, the react app should start at port 3000
+- go to the browser, type localhost:3000 in the address bar, you should see the app running, each time you refresh the page, your should see a new greeting message. Take note of the ***port numbers*** to avoid conflicts. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Run rails s in your terminal
+- Go to your browser and enter this url: http://localhost:3000
+- Each time you refresh the page, the greeting message should change.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Authors
+
+👤 **Mih Julius**
+
+- Github: [@Mihndim2020](https://github.com/Mihndim2020)
+- Twitter: [@mihndim](https://github.com/mih-julius)
+- Linkedin: [Mih Julius](https://www.linkedin.com/mih-julius)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/mihndim2020/hello-react-front/issues).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Microverse community
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
