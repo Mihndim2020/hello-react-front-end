@@ -2,16 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Greeting from './features/greeting/Greeting';
 
-
-const App = () => ( 
-  <React.Fragment>
+const App = () => (
+  <>
     <Router>
-      <Switch>          
+      <Switch>
         <Route exact path="/" render={() => <Greeting />} />
       </Switch>
-    </Router> 
-  </React.Fragment>  
+    </Router>
+  </>
 );
 
 export default App;
-
